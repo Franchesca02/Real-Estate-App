@@ -1,13 +1,13 @@
 import { assets } from "../assets/assets";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <motion.div
-    initial={{opacity: 0, x: 200}}
-      transition={{duration: 1}}
-      whileInView={{opacity: 1, x: 0}}
-      viewport={{once: true}}
+      initial={{ opacity: 0, x: 200 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
       id="About"
     >
@@ -52,13 +52,26 @@ const About = () => {
           </div>
 
           <p className="my-10 max-w-lg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventive
-            guilt combines with and corrupts hate, compels to detain by force
-            the misfortune of something, aligning its declarations as one can.
-            Occasional explanations remain with disturbing duties.
+            Welcome to Real-Estate-Homes-by-Ify, where we turn your real estate
+            dreams into reality. With years of expertise in the property market,
+            we are dedicated to helping individuals, families, and businesses
+            find their perfect spaces. Whether you’re buying, selling, or
+            investing, we pride ourselves on delivering exceptional service
+            tailored to your unique needs. Our team of passionate professionals
+            understands that real estate is more than transactions—it’s about
+            building futures and creating lasting memories. We prioritize
+            transparency, integrity, and personalized care in every interaction,
+            ensuring a seamless journey for our clients. At
+            Real-Estate-Homes-by-Ify, we don’t just sell properties; we craft
+            lifestyles. Let us guide you home.
           </p>
 
-          <button className="bg-blue-600 text-white px-8 py-2 rounded">Learn More...</button>
+          <a
+            href="#Contact"
+            className="border border-blue-600 bg-transparent text-blue-500 hover:text-white px-8 py-2 rounded hover:bg-gray-900"
+          >
+            Learn More...
+          </a>
         </div>
       </div>
     </motion.div>

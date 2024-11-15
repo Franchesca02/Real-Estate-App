@@ -8,9 +8,8 @@ const Footer = () => {
         <div className="container flex mx-auto flex-col md:flex-row justify-between items-start">
             <div className="w-full md:w-1/3 mb-8 md:mb-0">
                 <img src={assets.logo_dark} alt="" />
-                <p className="text-gray-400 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cumque iste accusantium sint qui beatae, 
-                    eius dolorum explicabo ex omnis? 
-                    Recusandae exercitationem deleniti aut unde minus ratione placeat dolorum magni!</p>
+                <p className="text-gray-400 mt-4">At Real-Estate-Homes-by-Ify, we believe that finding your perfect home is more than just a transaction; it’s about creating a future. With years of experience and a deep passion for real estate, our dedicated team is here to guide you through every step of the process. Whether you’re buying your first home, 
+                    selling an investment property, or searching for your dream space, we are committed to making your journey smooth, transparent, and personalized.</p>
             </div>
 
             <div className="w-full md:w-1/5 mb-8 md:md-0">

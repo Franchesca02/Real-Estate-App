@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 
 
 const Navbar = () => {
-  // eslint-disable-next-line no-unused-vars
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   useEffect(() => {
